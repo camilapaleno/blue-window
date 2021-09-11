@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, p {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.coming-soon {
+    width: 100vw;
+    height: 100vh;
+    background-color: #386D9D;
+}
+
+.coming-soon .container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}   
+
+.coming-soon p {
+    text-align: center;
+    color: #10528F; 
+    font-style: italic;
+}
+
+.coming-soon img {
+    width: 50vw;
+}
+
