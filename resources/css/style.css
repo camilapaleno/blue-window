@@ -24,6 +24,14 @@ span {
     font-weight: 700;
 }
 
+@media (max-width:920px) {
+    .mobile-display-none {
+        display: none;
+    }
+}
+
+
+
 /* Coming Soon */
 
 .coming-soon {
@@ -79,7 +87,6 @@ span {
 
 #navbar .container li {
     font-family: 'Playfair Display', sans-serif;
-    color: #10528F;
     font-weight: 900;
 }
 
@@ -101,6 +108,24 @@ span {
     font-weight: 500;
     font-size: 12px;
     padding: 0px 5%;
+}
+
+#coming-soon {
+    color: #10528F;
+    font-style: italic;
+    font-weight: 900;
+}
+
+
+@media (max-width: 920px) {
+    #navbar .container ul{
+        padding: 40px;
+        display: block;
+        text-align: center;
+    }
+    #navbar .container li {
+        padding: 5px;
+    }
 }
 
 /*Hero*/
@@ -146,6 +171,72 @@ span {
 
 #hero .overlay .text span {
     font-style: italic;
+}
+
+@media (max-width: 920px) {
+    #hero {
+        margin-top: 120px;
+        height: 80vh;
+        position: relative;
+    }
+
+    #hero .overlay .text {
+        width: 80vw;
+    }
+}
+
+/*Subhero*/
+
+#subhero {
+    height: 80vh;
+    position: relative;
+}
+
+#subhero img {
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+
+#subhero .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e2e2e2a9;
+
+}
+
+#subhero .overlay .text {
+    width: 35vw;
+    text-align: left;
+    
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#subhero .overlay .text h1 {
+    font-size: 3em;
+    font-weight: 900;
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+}
+
+#subhero .overlay .text span {
+    font-style: italic;
+}
+
+@media (max-width: 920px) {
+    #subhero {
+        height: 80vh;
+        position: relative;
+    }
+
+    #subhero .overlay .text {
+        width: 80vw;
+    }
 }
 
 /*Boxes*/
@@ -203,6 +294,32 @@ span {
     padding: 20px;
 }
 
+@media (max-width: 920px) {
+    #boxes {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px 10px;
+        justify-content: space-around;
+        height: 100%;
+    }
+    
+    #boxes .container {
+        width: 100%;
+        height: 50vh;
+        margin: 20px 10px;
+        position: relative;
+        object-fit: cover;
+    }
+    #boxes .container .overlay {
+        height: 50vh;
+    }
+
+    #boxes .container img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
 /*Footer*/
 
 #footer {
@@ -213,7 +330,7 @@ span {
 #footer .container {
     background-color:  rgb(235, 238, 241);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 #footer .container ul {
@@ -229,4 +346,8 @@ span {
 
 #footer .bar p {
     color: rgb(154, 170, 187);
+}
+
+#reach-out {
+
 }
