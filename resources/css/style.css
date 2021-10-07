@@ -78,8 +78,8 @@ span {
 }
 
 #navbar .container ul{
-    padding: 30px;
-    background-color: rgb(235, 238, 241);
+    padding: 20px;
+    background-color: #386D9D;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -89,6 +89,11 @@ span {
     font-family: 'Playfair Display', sans-serif;
     font-weight: 900;
 }
+
+#navbar .container ul li{
+    color: #FFF;
+}
+
 
 #navbar .container img {
     width: 250px;
@@ -104,14 +109,14 @@ span {
 
 #navbar .bar li {
     font-family: 'Montserrat', sans-serif;
-    color: #494745;
+    color: #ffffff;
     font-weight: 500;
     font-size: 12px;
     padding: 0px 5%;
 }
 
 #coming-soon {
-    color: #10528F;
+    color: #ffffff;
     font-style: italic;
     font-weight: 900;
 }
